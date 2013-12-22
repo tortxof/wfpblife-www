@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="author" content="Daniel Jones" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
+<link href="/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Whole Food Plant Based Life - {{ page.title }}</title>
+</head>
+<body>
+
+<div id="main">
+
+<div id="header"></div>
+
+<nav id="nav" role="navigation">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/blog/">Blog</a></li>
+<li><a href="/resources/">Resources</a></li>
+</ul>
+</nav><!-- end nav -->
+
+<div id="content">
+<h1>{{ page.title }}</h1>
+{{ content }}
+</div><!-- end content -->
+
+<div id="footer">
+{% include footer.html %}
+</div><!-- end footer -->
+
+</div><!-- end main -->
+
+</body>
+</html>
