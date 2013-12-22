@@ -1,0 +1,9 @@
+url: http://wfpblife.com
+auto: false
+permalink: /blog/:year/:month/:day/:title
+pygments: true
+server: false
+exclude:
+- README.md
+- upload
+- assets
