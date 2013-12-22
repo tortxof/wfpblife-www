@@ -23,3 +23,5 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 }
 //-->
 </script><noscript>Sorry, you need Javascript on to email me.</noscript>
+
+Background graphic [CC BY-SA 2.0](http://creativecommons.org/licenses/by-sa/2.0/) by [David Boyle](http://www.flickr.com/photos/beglendc/)
