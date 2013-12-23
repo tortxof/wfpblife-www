@@ -1,3 +1,5 @@
+name: Whole Food Plant Based Life
+description: Blog of Beth Ashley.
 url: http://wfpblife.com
 auto: false
 permalink: /blog/:year/:month/:day/:title
