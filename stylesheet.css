@@ -1,7 +1,7 @@
 body {
 font-family:"Sorts Mill Goudy",serif;
-background-color:#666;
 background-image:url("/images/bg.jpg");
+background-attachment:fixed;
 margin:0;
 padding:16px;
 }
@@ -72,11 +72,12 @@ background-color:#ccc;
 
 #main {
 color:#000;
+background-image:url("/images/bg-content.jpg");
+background-attachment:fixed;
 box-shadow:0 0 10px #666;
 width:auto;
 max-width:720px;
 margin:0 auto 0 auto;
-background-color:rgba(255,255,255,0.8);
 border:1px solid #333;
 padding:2em;
 }
