@@ -2,10 +2,6 @@ name: Whole Food Plant Based Life
 description: Information and inspiration for a whole food plant based diet.
 url: http://wfpblife.com
 permalink: /blog/:year/:month/:day/:title
-pygments: true
-markdown: redcarpet
-redcarpet:
-  extensions: ['smart']
 exclude:
 - README.md
 - upload
